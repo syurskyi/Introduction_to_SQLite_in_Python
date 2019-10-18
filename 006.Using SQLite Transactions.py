@@ -29,3 +29,6 @@ db.commit()
 
 db.close()
 
+# Please remember to always call commit to save the changes. If you close the connection using close or the connection
+# to the file is lost (maybe the program finishes unexpectedly), not committed changes will be lost.
+
