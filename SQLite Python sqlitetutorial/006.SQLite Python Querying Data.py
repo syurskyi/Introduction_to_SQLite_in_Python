@@ -73,8 +73,9 @@ def select_task_by_priority(conn, priority):
 # C:\sqlite\db\pythonsqlite.db and calls the functions to query all rows from the tasks table and select tasks
 # with priority 1:
 
+
 def main():
-    database = r"C:\sqlite\db\pythonsqlite.db"
+    database = "pythonsqlite.db"
 
     # create a database connection
     conn = create_connection(database)
@@ -84,6 +85,7 @@ def main():
 
         print("2. Query all tasks")
         select_all_tasks(conn)
+
 
 if __name__ == '__main__':
     main()
