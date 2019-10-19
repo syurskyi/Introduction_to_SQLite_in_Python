@@ -14,3 +14,5 @@ db.close()
 # http://zetcode.com/db/sqlitepythontutorial/
 # https://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
 # https://www.sqlitetutorial.net/sqlite-python/
+
+# https://www.datacamp.com/community/tutorials/sqlite-in-python
